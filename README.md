@@ -17,6 +17,14 @@ or memory in any realistic sense. It does not use machine learning, embeddings, 
 probabilistic sampling. It is a transparent toy mechanism for illustrating one
 specific point about path-dependent thematic drift.
 
+## Related paper
+
+This demo is a runnable companion to the *Narrative Coupling* paper:
+
+- Paper (Zenodo): https://zenodo.org/records/19041297
+
+If you use or discuss this demo, please read the paper for the full conceptual framing and scope.
+
 ## Themes
 
 The demo uses exactly three themes:
