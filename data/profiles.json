@@ -1,0 +1,75 @@
+[
+  {
+    "name": "low_coupling_contradiction_sensitive",
+    "coupling_gain": 0.72,
+    "decay": 0.22,
+    "contradiction_damping": 1.0,
+    "saturation_caps": {
+      "warning": 2.6,
+      "return": 2.8,
+      "loss": 2.5
+    },
+    "state_weight": 0.9,
+    "initial_field": {
+      "signal": 0.45,
+      "return": 0.4,
+      "distance": 0.35,
+      "gap": 0.25,
+      "confirmation": 0.3
+    },
+    "initial_themes": {
+      "warning": 0.2,
+      "return": 0.35,
+      "loss": 0.18
+    }
+  },
+  {
+    "name": "moderate_balanced",
+    "coupling_gain": 1.0,
+    "decay": 0.12,
+    "contradiction_damping": 0.55,
+    "saturation_caps": {
+      "warning": 3.0,
+      "return": 3.0,
+      "loss": 2.9
+    },
+    "state_weight": 1.0,
+    "initial_field": {
+      "signal": 0.5,
+      "return": 0.4,
+      "distance": 0.4,
+      "gap": 0.4,
+      "confirmation": 0.3
+    },
+    "initial_themes": {
+      "warning": 0.3,
+      "return": 0.3,
+      "loss": 0.3
+    }
+  },
+  {
+    "name": "high_coupling_weak_damping",
+    "coupling_gain": 1.25,
+    "decay": 0.08,
+    "contradiction_damping": 0.25,
+    "saturation_caps": {
+      "warning": 3.3,
+      "return": 3.0,
+      "loss": 3.2
+    },
+    "state_weight": 1.12,
+    "initial_field": {
+      "signal": 0.55,
+      "return": 0.25,
+      "distance": 0.5,
+      "gap": 0.45,
+      "confirmation": 0.2,
+      "silence": 0.25
+    },
+    "initial_themes": {
+      "warning": 0.4,
+      "return": 0.22,
+      "loss": 0.36
+    }
+  }
+]

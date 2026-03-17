@@ -1,0 +1,92 @@
+[
+  {
+    "id": "b1",
+    "label": "alarm_echo_without_followthrough",
+    "tags": {
+      "alarm": 0.8,
+      "echo": 0.7,
+      "signal": 0.5,
+      "distance": 0.4
+    },
+    "theme_hints": {
+      "warning": 0.7,
+      "return": 0.1,
+      "loss": 0.3
+    },
+    "contradiction_targets": []
+  },
+  {
+    "id": "b2",
+    "label": "route_reconfirmed",
+    "tags": {
+      "route": 0.8,
+      "confirmation": 0.8,
+      "return": 0.6,
+      "continuity": 0.6
+    },
+    "theme_hints": {
+      "warning": 0.1,
+      "return": 0.8,
+      "loss": 0.1
+    },
+    "contradiction_targets": [
+      "warning",
+      "loss"
+    ]
+  },
+  {
+    "id": "b3",
+    "label": "resolved_ping_chain",
+    "tags": {
+      "signal": 0.9,
+      "confirmation": 0.7,
+      "return": 0.7,
+      "repetition": 0.5
+    },
+    "theme_hints": {
+      "warning": 0.15,
+      "return": 0.85,
+      "loss": 0.05
+    },
+    "contradiction_targets": [
+      "warning",
+      "loss"
+    ]
+  },
+  {
+    "id": "b4",
+    "label": "inventory_gap_explained",
+    "tags": {
+      "explanation": 0.8,
+      "closure": 0.7,
+      "return": 0.45,
+      "signal": 0.35,
+      "gap": 0.2
+    },
+    "theme_hints": {
+      "warning": 0.1,
+      "return": 0.62,
+      "loss": 0.18
+    },
+    "contradiction_targets": [
+      "warning"
+    ]
+  },
+  {
+    "id": "b5",
+    "label": "stable_location_fix",
+    "tags": {
+      "location": 0.8,
+      "stability": 0.9,
+      "return": 0.55,
+      "confirmation": 0.55,
+      "distance": 0.2
+    },
+    "theme_hints": {
+      "warning": 0.12,
+      "return": 0.72,
+      "loss": 0.1
+    },
+    "contradiction_targets": []
+  }
+]
